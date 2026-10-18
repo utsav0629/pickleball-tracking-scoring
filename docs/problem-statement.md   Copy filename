@@ -1,0 +1,41 @@
+# Problem Statement
+
+## 1. Background
+
+Pickleball is a racket sport in which the ball can move rapidly across the court while players change position frequently. Analyzing recorded gameplay using computer vision presents challenges because the ball is relatively small, its movement can be rapid, and players or other objects may obstruct its visibility.
+
+This project explored the use of object-detection techniques to investigate how pickleball and players could be identified in video footage.
+
+## 2. Problem Definition
+
+The central research problem was to investigate the feasibility of detecting and tracking a pickleball and active players in sports footage while reducing irrelevant detections from spectators, background objects, and court elements.
+
+Detection and tracking are related but different tasks:
+
+- **Object detection** identifies objects in an individual image or video frame.
+- **Object tracking** attempts to maintain the identity and movement of objects across successive frames.
+
+Reliable automated scoring requires additional gameplay analysis beyond simply detecting objects.
+
+## 3. Project Objectives
+
+The research objectives were to:
+
+1. Explore computer-vision methods for sports-video analysis.
+2. Prepare images and corresponding labels for object-detection experiments.
+3. Investigate Roboflow as part of the dataset preparation workflow.
+4. Explore YOLOv8 for detecting relevant objects.
+5. Identify technical challenges affecting ball detection and player tracking.
+6. Investigate how object detection could contribute to a future automated scoring system.
+
+## 4. Scope
+
+The project focused on research, dataset preparation, and experimentation with computer-vision approaches. It was not completed as a fully integrated, production-ready tracking and scoring application.
+
+The proposed system could be extended to video-based tracking, gameplay-event detection, and automated scoreboard generation in future work.
+
+## 5. Expected Research Outcome
+
+The intended outcome was a better understanding of the tools, workflow, feasibility, and limitations involved in applying computer vision to pickleball analysis.
+
+Any claims about model accuracy, successful tracking, or scoring performance must be supported by actual experimental results.
